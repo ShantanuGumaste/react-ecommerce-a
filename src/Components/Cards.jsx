@@ -20,6 +20,8 @@ export default function Cards() {
               <p className="card-text">
                 Men's Fitness Standard Breathable Jacket - Green
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -33,6 +35,8 @@ export default function Cards() {
             <div className="card-body">
               <h5 className="card-title">KALENJI</h5>
               <p className="card-text">Men's Running Shoes Run Cushion- Blue</p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -48,6 +52,8 @@ export default function Cards() {
               <p className="card-text">
                 Men’s Waterproof Winter Hiking Jacket - Waterproof - Blue
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -63,6 +69,8 @@ export default function Cards() {
               <p className="card-text">
                 TR160 Graph Adult Tennis Racket - White Rating
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -76,6 +84,8 @@ export default function Cards() {
             <div className="card-body">
               <h5 className="card-title">KALENJI</h5>
               <p className="card-text">Men's Running Shoes Run Cushion- Blue</p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -91,6 +101,8 @@ export default function Cards() {
               <p className="card-text">
                 Men's Fitness Standard Breathable Jacket - Green
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -106,6 +118,8 @@ export default function Cards() {
               <p className="card-text">
                 TR160 Graph Adult Tennis Racket - White Rating
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -121,6 +135,8 @@ export default function Cards() {
               <p className="card-text">
                 Men’s Waterproof Winter Hiking Jacket - Waterproof - Blue
               </p>
+              <button className="btn btn-warning btn-sm">Buy Now</button>
+              <button style={{marginLeft:"10px"}} className="btn btn-primary btn-sm">Add to Cart</button>
             </div>
           </div>
         </div>
