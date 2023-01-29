@@ -4,7 +4,7 @@ import "./Cards.css"
 export default function Cards() {
   return (
     <div>
-      <div className="best_selling">
+      <div className="best_selling text-center">
         <h3>Our Best Selling Sports Collection</h3>
       </div>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
