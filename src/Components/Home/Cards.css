@@ -1,0 +1,22 @@
+.best_selling{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.btn{
+    font-size: .800rem;
+}
+
+.card-text{
+    font-size: .875rem;
+}
+
+.product_div{
+    /* background-color: aliceblue; */
+    padding-bottom: 25px;
+}

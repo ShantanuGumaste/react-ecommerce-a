@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -11,7 +12,8 @@ export default function Header() {
               className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
             >
               <img
-                src="https://www.citypng.com/public/uploads/small/11597191683ibu1zqfhs6ieczjmrlukrglxtqscvprv22ked6insckf9f5dvxgcuxhidxcvztokwnclydxxrfbdzukofhwuvio7dku4fyuh1iy8.png"
+                style={{ marginRight: "20px" }}
+                src="https://cdn3.vectorstock.com/i/1000x1000/67/12/logo-for-sport-shop-vector-26636712.jpg"
                 alt="logo"
                 height={50}
               />
@@ -19,29 +21,24 @@ export default function Header() {
             </a>
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li>
-                <a href="#" className="nav-link px-2 text-secondary">
+                <Link to="/" className="nav-link px-2 text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="nav-link px-2 text-white">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="nav-link px-2 text-white">
+                <Link to="/products" className="nav-link px-2 text-white">
                   Products
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="#" className="nav-link px-2 text-white">
+              {/* <li>
+                <Link to="/faq" className="nav-link px-2 text-white">
                   FAQs
-                </a>
-              </li>
+                </Link>
+              </li> */}
               <li>
-                <a href="#" className="nav-link px-2 text-white">
-                  About
-                </a>
+                <Link to="/support" className="nav-link px-2 text-white">
+                  Support
+                </Link>
               </li>
             </ul>
             <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -56,9 +53,11 @@ export default function Header() {
               <button type="button" className="btn btn-outline-light me-2">
                 Login
               </button>
-              <button type="button" className="btn btn-warning">
-                Sign-up
-              </button>
+              <Link to="/cart">
+                <button type="button" className="btn btn-warning">
+                  Cart
+                </button>
+              </Link>
             </div>
           </div>
         </div>

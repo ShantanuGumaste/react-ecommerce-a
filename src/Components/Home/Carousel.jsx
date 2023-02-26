@@ -7,6 +7,7 @@ export default function Carousel() {
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
+        data-bs-interval="2000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -20,7 +21,7 @@ export default function Carousel() {
             <img
               src="https://img.freepik.com/free-vector/sport-equipment-banner_1284-32611.jpg?w=2000"
               className="d-block w-100"
-              style={{ height: "520px" }}
+              style={{ height: "570px" }}
               alt="carousel_img2"
             />
           </div>
@@ -28,7 +29,7 @@ export default function Carousel() {
             <img
               src="https://c8.alamy.com/comp/PR0M4R/black-friday-promotional-sale-shopping-banner-with-products-and-discount-sports-and-workout-equipment-PR0M4R.jpg"
               className="d-block w-100"
-              style={{ height: "520px" }}
+              style={{ height: "570px" }}
               alt="carousel_img3"
             />
           </div>
@@ -52,6 +53,10 @@ export default function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div className="best_selling text-center">
+        <h3>Our Best Selling Sports Collection</h3>
+      </div>
     </div>
+    
   );
 }
