@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import Form from './Form/Form';
 
 export default function Support() {
   return (
@@ -8,6 +9,7 @@ export default function Support() {
         <h1 className='support_title'>What can we help you <br/> with?</h1>
         <input className='support_input' type="text" placeholder='       Ask a Question...' />
       </div>
+      <Form/>
     </>
   );
 }
